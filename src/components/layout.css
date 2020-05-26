@@ -1,3 +1,15 @@
+/* my styles */
+
+#header-nav-link {
+  /* ^this is not targeting properly yet */
+  color: white;
+  font-weight: normal;
+  list-style: none;
+  float: right;
+}
+
+/* original styles */
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -7,6 +19,9 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100vw;
+  height: 100vh;
 }
 article,
 aside,
@@ -42,6 +57,8 @@ template {
 a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
+  color: #558290;
+  font-weight: bold;
 }
 a:active,
 a:hover {
@@ -385,6 +402,7 @@ p {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
+  font-family: "Roboto", sans-serif;
 }
 figure {
   margin-left: 0;
